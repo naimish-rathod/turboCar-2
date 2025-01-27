@@ -1,0 +1,327 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+p{
+	margin: 0;
+}
+:root {
+	--bg-blue : #4276f4;
+	--col-wh : #ffffff;
+	--col-gray : #666D80;
+	--col-blk : #101010;
+	--col-lgray : #6A6A6A;
+	--col-after-bdr : #D5D5D5;
+}
+section {
+	background-color: var(--col-wh);
+}
+/* ===============================================
+					Navbar
+===============================================*/
+.my-container {
+	padding: 2.5em 7em;
+}
+.my-navbar {
+	padding: 0.5em 7rem;
+	align-items: unset !important;
+}
+.navbar-nav {
+	align-items: center;
+}
+.nav-item a {
+	font-family: 'circularStd';
+	color: var(--col-blk) !important;
+	font-size: 1.1em;
+}
+.my-btn {
+	border: none;
+    padding: 7px 13px;
+    background: linear-gradient(90deg, #2665FF 0%, #1654EC 100%);
+    color: var(--col-wh);
+    font-family: 'circularStd';
+    border-radius: 5px;
+}
+.navbar-brand {
+	padding: 0;
+	margin: 0;
+}
+.navbar-toggler-icon {
+	background-image: url(../img/menu.svg) !important;
+}
+.navbar-toggler:focus {
+     text-decoration: unset;  
+     outline: unset;  
+     box-shadow: unset;  
+}
+/* ===============================================
+					Banner
+===============================================*/
+.search-div {
+    display: flex;
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    justify-content: space-between; 
+    align-items: center;
+    box-shadow: 0px 2px 13px rgba(0, 0, 0, 0.1);
+    padding: 14px 16px 14px 24px;
+    width: 100%;
+}
+.search-first {
+    display: flex;
+    width: 55%; 
+    position: relative;
+}
+.search-btn-box {
+    width: auto; 
+    display: flex;
+    gap: 20px;
+}
+.search-btn {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    padding: 13px 26px;
+}
+.ai-btn {
+    background-color: var(--col-wh);
+    border: 2px solid var(--bg-blue);
+    padding: 14px 16px 14px 24px;
+    border-radius: 5px;
+    color: var(--bg-blue);
+    font-family: 'circularStd';
+}
+.search-txt {
+    width: 33.33%;
+}
+.search-txt p:first-child {
+    color: var(--col-blk);
+    font-family: 'circularStd';
+}
+.search-txt p:last-child {
+    color: var(--col-lgray);
+    font-family: 'circularStdL';
+}
+.search-txt:nth-child(2)::after,
+.search-txt:nth-child(3)::after {
+    content: '';
+    position: absolute;
+    width: 2px;
+    height: 50px;
+    background-color: var(--col-after-bdr);
+    margin-left: -35px;
+    top: 0;
+}
+.big-txt {
+/*    width: 25%;*/
+    padding-top: 5em;
+}
+.rating-box {
+  display: flex;
+  align-items: center;  
+}
+.rating-box > div {
+  display: flex;
+  align-items: center;
+}
+.rating-box img {
+  height: auto;
+  margin-right: 10px;
+}
+.rating-box p {
+  margin: 0; 
+  font-family: 'circularStd';  
+}
+.car-buy-txt {
+	font-family: 'circularStd';
+	background: linear-gradient(90deg, #2665FF 0%, #1654EC 100%);
+    color: transparent;
+    background-clip: text;
+    font-size: 3em;
+}
+.carmax-txt {
+    font-family: 'circularStd';
+    color: var(--col-lgray);
+}
+.reason-txt {
+    text-align: center;
+    color: var(--col-blk);
+    font-family: 'circularStd';
+    font-size: 1.9em;
+
+}
+.card-box {
+    padding-top: 4em;
+}
+.bnr-card {
+    width: 290px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0 2em;
+    border-radius: 10px;
+    flex: 0 0 290px;
+}
+.bnr-card p:first-child {
+    color: var(--col-blk);
+    font-family: 'circularStd';
+    font-size: 1.1em;
+}
+.bnr-card p:last-child {
+    color: var(--col-lgray);
+    font-family: 'circularStd';
+    font-size: 0.9em;
+}
+.card-wrapper {
+    display: flex;
+    padding-top: 2em;
+    gap: 8em;
+    display: flex;
+    margin-right: -7em;
+    overflow: hidden;
+}
+.card-1 {
+    background-color: #D5F2FF;
+}
+.card-2 {
+    background-image: url(../img/card-img-1.png);
+}
+.card-2 p{
+    color: var(--col-wh) !important;
+}
+.card-3 {
+    background-image: url(../img/card-img-2.png);
+}
+.card-4 {
+    background-color: #D8FFD5;
+    background-image: url(../img/card-img-3.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    text-align: left;
+    padding: 0 5em 0 2em;
+}
+.card-5 {
+    background-image: url(../img/card-img-4.png);
+}
+/* ===============================================
+                    Pre qualify
+===============================================*/
+.price {
+    box-shadow: 0px 2px 16px rgba(16, 25, 25, 0.1);
+    border-radius: 10px;
+    border-top: 4px solid var(--bg-blue);
+    width: 63%;
+    margin: 0 auto;
+    padding: 3em;
+}
+.price-box-txt {
+    color: var(--col-blk);
+    font-family: 'circularStd';
+    text-align: center;
+    padding: 0 0 2rem 0;
+    font-size: 1.9em;
+}
+.price-box {
+    width: 100%;
+    display: flex;
+}
+.price-box-1 {
+    width: 70%;
+}
+.price-box-2 {
+    width: 30%;
+}
+.cars-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 1em;
+}
+.kind-txt {
+    font-family: 'circularStd';
+    color: var(--col-lgray);
+    padding-bottom: 1em;
+}
+.cars {
+    text-align: center;
+}
+.cars p {
+    font-family: 'circularStdL';
+    color: var(--col-lgray);
+}
+.cars-blk p {
+    color: var(--col-blk);
+    font-family: 'circularStdL';
+}
+.payment-mode {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    background-color: #F9F9F9;
+}
+.payment {
+    width: 33.33%;
+}
+.payment p:first-child {
+    color: var(--col-lgray);
+    font-family: 'circularStd';
+}
+.payment p:last-child {
+    color: var(--col-blk);
+    font-family: 'circularStd';
+}
+.price-box-2 {
+    font-family: 'circularStd';
+    color: var(--col-blk);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 1em;
+}
+.dol-num {
+    font-size: 2.5em;
+    padding: 0.3em 0;
+}
+/* ===============================================
+                   blog
+===============================================*/
+.blog-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.heading-txt p:first-child{
+    font-family: 'circularStd';
+    color: var(--col-blk);
+    font-size: 1.9em;  
+}
+.heading-txt p:last-child{
+    font-family: 'circularStd';
+    color: var(--col-lgray); 
+    font-size: 0.9em; 
+}
+.blog-btn {
+    display: flex;
+    gap: 10px;
+}
+.blog-btn .btn {
+    border: none;
+    cursor: pointer;
+}
+.blog-card {
+    max-width: 400px;
+}
+.blg-all-txt {
+    font-family: 'circularStdL';
+}
+.blg-txt-1 {
+    font-family: 'circularStd';
+    display: flex;
+    justify-content: space-between;
+    color: var(--col-blk);
+}
+.blg-txt-2 {
+    
+}
