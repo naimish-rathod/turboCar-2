@@ -13,6 +13,8 @@
 	<link rel="stylesheet" type="text/css" href="css/font.css">
 	<!-- Responsive Css -->
 	<link rel="stylesheet" type="text/css" href="css/responsive.css">
+	<!-- Swiper -->
+	<link rel="stylesheet" href="css/swiper-bundle.min.css"/>
 </head>
 <body>
 <!-- Header -->
