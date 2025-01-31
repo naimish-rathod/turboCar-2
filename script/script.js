@@ -64,7 +64,7 @@
 	});
 // Small car
 	const smallCar = new Swiper('.small-car-slider', {
-	  loop: false,
+	  loop: true,
 	  slidesPerView:  9,  
 	  spaceBetween: 18,  
 

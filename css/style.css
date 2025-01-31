@@ -35,13 +35,15 @@ section {
 ===============================================*/
 .my-container {
 	padding: 2.5em 7em;
+    overflow: hidden;
 }
 .my-navbar {
 	padding: 0.5em 7rem;
 	align-items: unset !important;
 }
 .navbar-nav {
-	align-items: center;
+	align-items: center !important;
+    gap: 10px;
 }
 .nav-item a {
 	font-family: 'circularStd';
@@ -178,6 +180,7 @@ section {
     border-radius: var(--bdr-radius);
 /*    flex: 0 0 290px;*/
     user-select: none;
+    justify-content: center;
 }
 .bnr-card p:first-child {
     color: var(--col-blk);
@@ -219,8 +222,9 @@ section {
 }
 .card-5 {
     background-image: url(../img/card-img-4.png);
+    background-size: cover;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-position: top center;
 }
 /* ===============================================
                     Pre qualify
@@ -686,8 +690,12 @@ section {
 }
 .recent-card {
     display: flex !important;
+    height: auto !important;
     flex-direction: column;
     justify-content: space-between;
+}
+.rct-pb {
+    padding-bottom: 2.5em !important;
 }
 /* ===============================================
                Footer

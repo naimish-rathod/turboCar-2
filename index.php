@@ -1,60 +1,7 @@
-// <?php 
-// include 'header.php';//Navbar
-// ?>
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>turboCar</title>
-	<!-- Bootstrap -->
-	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
-	<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-	<!-- Main Css -->
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<!-- Fonts -->
-	<link rel="stylesheet" type="text/css" href="css/font.css">
-	<!-- Responsive Css -->
-	<link rel="stylesheet" type="text/css" href="css/responsive.css">
-	<!-- Swiper -->
-	<link rel="stylesheet" href="css/swiper-bundle.min.css"/>
-</head>
-<body>
-<!-- Header -->
-<section>
-	<nav class="navbar navbar-expand-md"> 
-		<div class="container-fluid my-navbar">
-			<!-- logo icon -->
-			<a href="" class="navbar-brand">
-				<img src="img/logo-7.svg">
-			</a>
-			<!-- Hamburg icon -->
-			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-	      		<span class="navbar-toggler-icon"></span>
-	    	</button>
-			<div class="collapse navbar-collapse justify-content-between" id="collapsibleNavbar">
-				<ul class="navbar-nav ms-auto">
-					<li class="nav-item">
-						<a href="" class="nav-link">Shop</a>
-					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">Sell</a>
-					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">Trade</a>
-					</li>
-					<li class="nav-item">
-						<a href="" class="nav-link">More</a>
-					</li>
-					<li class="nav-item ps-5">
-						<button class="my-btn">Sign Up</button>
-					</li>
-				</ul>				
-			</div>
-		</div>
-	</nav>
-</section>														
-	<!-- Baner section -->
+<?php 
+include 'header.php';//Navbar
+?>
+														<!-- Baner section -->
 <section>
 	<div class="my-container baner">
 		<div class="search-div">
@@ -760,7 +707,7 @@
 				</div>
 			</div>			
 		</div>
-		<div class="d-flex justify-content-center">
+		<div class="d-flex justify-content-center pb-4">
 			<button class="my-btn get-btn">View All Cars</button>
 		</div>
 	</div>
@@ -810,7 +757,7 @@
 									<!-- Review sections -->
 <section>
 	<div class="my-container new-padding">
-		<div class="blog-heading p-0 pb-5">
+		<div class="blog-heading pt-0">
 			<div class="heading-txt">
 					<p>How Happy They Are<br>With Our Service</p>
 					<p class="reviews-txt">We take great pride in the satisfaction of out clients</p>
@@ -894,7 +841,7 @@
 									<!-- Recent blog sections -->
 <section>
 	<div class="my-container">
-		<div class="blog-heading p-0 pb-5">
+		<div class="blog-heading p-0 rct-pb">
 			<div class="heading-txt">
 					<p>Research Popular Used Cars & SUV's</p>
 					<p class="reviews-txt">Lorem ipsum dolor sit amet consectetur. Leo vitae pellentesque posuere dignissim porta.</p>

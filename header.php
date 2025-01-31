@@ -41,7 +41,15 @@
 						<a href="" class="nav-link">Trade</a>
 					</li>
 					<li class="nav-item">
-						<a href="" class="nav-link">More</a>
+						<div class="dropdown">
+							<a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+							<ul class="dropdown-menu">
+								<li class="dropdown-item">Service & Repairs</li>
+								<li class="dropdown-item">FAQ & Support</li>
+								<li class="dropdown-item">Buying Online</li>
+								<li class="dropdown-item">Car Research</li>
+							</ul>
+						</div>
 					</li>
 					<li class="nav-item ps-5">
 						<button class="my-btn">Sign Up</button>

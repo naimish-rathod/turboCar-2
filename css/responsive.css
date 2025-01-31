@@ -79,6 +79,9 @@
         height: 36%;
         margin-left: -7px;
     }
+    .card-box {
+        margin-right: -5em;
+    }
     /*==============  Pre qulify  ==================*/
     .sml-btn-2 {
         width: 50px !important;
@@ -86,10 +89,14 @@
     .sml-btn-2 img {
         width: 35px;
     }
+    /*==============  Shop way section  ==================*/
+    .shop-way-head {
+        padding-bottom: 2em;
+    }
 
     /*==============  Blog  ==================*/
     .blog-card {
-        width: 260px;
+        width: calc(33.33% - 15px);
     }
     .search-div-2 {
         padding: 8px 10px 8px 13px;
@@ -126,6 +133,10 @@
     }
     .blog-btn img {
         width: 40px;
+    }
+    .blog-heading {
+        padding-top: 2em;
+        padding-bottom: 2em;
     }
     /*==============  Contact us  ==================*/
     .contact-us {
@@ -167,6 +178,9 @@
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+    }
+    .rct-pb {
+        padding-bottom: 2em !important;
     }
     /*==============  Footer  ==================*/
     .footer {
@@ -251,6 +265,9 @@
     /*==============  Blog  ==================*/
     .blog-btn img {
         width: 35px;
+    }
+    .blog-card {
+        width: calc(50% - 15px);
     }
     /*============== Search by style  ==================*/
     .small-car-slider {
@@ -343,7 +360,7 @@
     }
     /*==============  Navbar  ==================*/
     .my-container {
-        padding: 2.5em 2em;
+        padding: 2em 2em;
     }
     .my-navbar {
         padding: 0.5em 2rem;
@@ -395,6 +412,9 @@
     .marquee-card {
         padding-right: 2em !important;
     }
+    .big-txt {
+        padding-top: 3em;
+    }   
     /*==============  Pre qualify  ==================*/
     .price {
         padding: 1em;
@@ -462,6 +482,14 @@
     .search-by-txt {
         font-size: 1.5em !important;
     }
+    .blog-card {
+        width: 100%;
+        margin-right: 0;
+    }
+    .blog-heading {
+        padding-bottom: 1.5em;
+        padding-top: 0 !important;
+    }
     /*==============  Search by style  ==================*/
     .small-car-card img {
         width: 75px;
@@ -471,6 +499,7 @@
     }
     .shop-way-head {
         flex-wrap: wrap;
+        padding-bottom: 1.5em;
     }
     .shop-way-head-2, .shop-way-head-1 {
         width: 100%;
@@ -495,10 +524,11 @@
     .all-brand-btn {
         padding: 13px 7px;
         font-size: 0.5em;
+        width: 100%;
     }
     .cars-card-box {
         justify-content: space-around;
-        padding-bottom: 2em;
+        padding-bottom: 1em;
     }
     /*==============  Contact us  ==================*/  
     .contact-us {
