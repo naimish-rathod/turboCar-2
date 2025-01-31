@@ -169,14 +169,15 @@ section {
     margin-right: -7em;
 }
 .bnr-card {
-    width: 290px !important;
+/*    width: 290px !important;*/
     height: 240px !important;
     display: flex !important;
     align-items: center !important;
     text-align: center;
     padding: 0 2em;
     border-radius: var(--bdr-radius);
-    flex: 0 0 290px;
+/*    flex: 0 0 290px;*/
+    user-select: none;
 }
 .bnr-card p:first-child {
     color: var(--col-blk);
@@ -189,24 +190,24 @@ section {
     font-size: var(--font-small);
 }
 .card-wrapper {
-/*    display: flex;*/
     padding-top: 2em;
-    gap: 7em;
-/*    display: flex;*/
     margin-right: -7em;
-/*    overflow: hidden;*/
 }
 .card-1 {
     background-color: #D5F2FF;
 }
 .card-2 {
     background-image: url(../img/card-img-1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 .card-2 p{
     color: var(--col-wh) !important;
 }
 .card-3 {
     background-image: url(../img/card-img-2.png);
+     background-repeat: no-repeat;
+    background-size: 100%;
 }
 .card-4 {
     background-color: #D8FFD5;
@@ -218,6 +219,8 @@ section {
 }
 .card-5 {
     background-image: url(../img/card-img-4.png);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
 /* ===============================================
                     Pre qualify
@@ -260,29 +263,33 @@ section {
     transform: translateY(-50%);
 }
 .cars-list {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 1em;
-    position: relative;
-    overflow: hidden;
+  padding-bottom: 1em;
+  position: relative;
+/*  overflow: hidden;*/
 }
 .kind-txt {
     font-family: 'circularStd';
     color: var(--col-lgray);
     padding-bottom: 1em;
 }
-.cars {
+.cars ,.cars-blk{
     text-align: center;
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: column;
 }
 .car-right-btn {
-    position: absolute;
-    right: 0;
-    width: 52px;
-    height: 70px;
+    width: 60px;
+    height: 88px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 0) -43.86%, #FFFFFF 50%);
     display: flex;
     align-items: center;
+    padding: 13px 26px;
+    position: absolute;
+    right: -21%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+    top: 41%;
 }
 .cars p {
     font-family: 'circularStdL';
@@ -325,6 +332,9 @@ section {
 }
 .get-btn {
     padding: 13px 26px;
+}
+.sml-btn-2  {
+    top: 42% !important;
 }
 /* ===============================================
                    blog
@@ -492,6 +502,7 @@ section {
 }
 .small-car-strip-1 {
     width: 79%;
+    display: flex !important;
 }
 .small-car-strip-2 {
     width: 11%;
@@ -513,6 +524,17 @@ section {
     gap: 3em;
     justify-content: space-between;
     padding-bottom: 3em;
+}
+.small-car-btn {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) -43.86%, #FFFFFF 50%);
+    height: 75px;
+    width: 100px;
+    border: none;
 }
 /* ===============================================
                 Contact us

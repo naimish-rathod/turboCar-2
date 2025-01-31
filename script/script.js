@@ -1,13 +1,8 @@
 //Marquee card
 	const marqueCard = new Swiper('.marquee-card', {
 	  loop: true,
-	  slidesPerView: 4,  
-	  spaceBetween: 0,  
-
-	  navigation: {
-	    nextEl: '.swiper-button-nextt',   
-	    prevEl: '.swiper-button-prevv',   
-	  },
+	  slidesPerView: 5,  
+	  spaceBetween: 25,  
 
 	  breakpoints: {
 	    1440: {
@@ -27,7 +22,7 @@
 // Slider js
 	const blogSwiper = new Swiper('.blog-swiper', {
 	  loop: true,
-	  slidesPerView: 4,  
+	  slidesPerView: 6,  
 	  spaceBetween: 15,  
 
 	  navigation: {
@@ -146,7 +141,78 @@
 
 	nextButtonR.addEventListener('click', function() {
 	  swiper.slideNext();
-	});	
+	});
+// Small cars slide 
+	const smallCarsSlide = new Swiper('.small-cars', {
+	  loop: true,
+	  slidesPerView: 5,  
+	  spaceBetween: 15,  
+
+	  navigation: {
+	    nextEl: '.swiper-btn-next-cars',      
+	  },
+
+	  breakpoints: {
+	    1440: {
+	      slidesPerView: 5,
+	    },
+	    1024: {
+	      slidesPerView: 5, 
+	  	  spaceBetween: 10,  
+	    },
+	    768: {
+	      slidesPerView: 4,
+	    },
+	    0: {
+	      slidesPerView: 2,
+	    },
+	  },
+	});
+
+	window.addEventListener('resize', function() {
+	  swiper.update();
+	});
+
+	const nextButCars = document.getElementById('nextCar');
+
+	nextButCars.addEventListener('click', function() {
+	  swiper.slideNext();
+	});
+// Small cars slide 
+	const smallCarsSlide2 = new Swiper('.small-cars-2', {
+	  loop: true,
+	  slidesPerView: 7,  
+	  spaceBetween: 15,  
+
+	  navigation: {
+	    nextEl: '.swiper-btn-next-cars-2',      
+	  },
+
+	  breakpoints: {
+	    1440: {
+	      slidesPerView: 6,
+	    },
+	    1024: {
+	      slidesPerView: 6, 
+	    },
+	    768: {
+	      slidesPerView: 5,
+	    },
+	    0: {
+	      slidesPerView: 2,
+	    },
+	  },
+	});
+
+	window.addEventListener('resize', function() {
+	  swiper.update();
+	});
+
+	const nextButCars2 = document.getElementById('nextCar-2');
+
+	nextButCars2.addEventListener('click', function() {
+	  swiper.slideNext();
+	});
 // Recent blog 
 	const recentBlog = new Swiper('.recent-blog-slider', {
 	  loop: true,

@@ -36,8 +36,35 @@ include 'header.php';//Navbar
 			<div>
 				<p class="reason-txt">Reasons Why You Should Buy on TurboCar</p>
 			</div>
-			<div class="marquee-card">
+			<div class="swiper marquee-card">
 			<div class="card-wrapper swiper-wrapper">
+				<div class="bnr-card card-1 swiper-slide">
+					<div>
+						<p>Try it for 7 days or 300km</p>
+						<p>You dont't like it? dont worry change it for another car</p>
+					</div>
+				</div>
+				<div class="bnr-card card-2 swiper-slide">
+					<div>
+						<p>Try it for 7 days or 300km</p>
+						<p>You dont't like it? dont worry change it for another car</p>
+					</div>
+				</div>
+				<div class="bnr-card card-3 swiper-slide">
+					<div>
+						<p>Try it for 7 days or 300km</p>
+						<p>You dont't like it? dont worry change it for another car</p>
+					</div>
+				</div>
+				<div class="bnr-card card-4 swiper-slide">
+					<div>
+						<p>Try it for 7 days or 300km</p>
+						<p>You dont't like it? dont worry change it for another car</p>
+					</div>
+				</div>
+				<div class="bnr-card card-5 swiper-slide">
+					<!-- Only image -->
+				</div>
 				<div class="bnr-card card-1 swiper-slide">
 					<div>
 						<p>Try it for 7 days or 300km</p>
@@ -78,33 +105,35 @@ include 'header.php';//Navbar
 			<div class="price-box">
 				<div class="price-box-1">
 					<div><p class="kind-txt">What kinds of cars do you want ?</p></div>
-					<div class="cars-list">
-						<div class="cars-blk">
-							<div><img src="img/suv.svg"></div>
-							<div><p>SUV's</p></div>
+					<div class="swiper small-cars">
+						<div class="cars-list swiper-wrapper">
+							<div class="cars-blk swiper-slide">
+								<div><img src="img/suv.svg"></div>
+								<div><p>SUV's</p></div>
+							</div>
+							<div class="cars swiper-slide">
+								<div><img src="img/coupe.svg"></div>
+								<div><p>Coupe</p></div>
+							</div>
+							<div class="cars swiper-slide">
+								<div><img src="img/coupe.svg"></div>
+								<div><p>Hatchback</p></div>
+							</div>
+							<div class="cars swiper-slide">
+								<div><img src="img/coupe.svg"></div>
+								<div><p>MPV</p></div>
+							</div>
+							<div class="cars swiper-slide">
+								<div><img src="img/coupe.svg"></div>
+								<div><p>Hybrids</p></div>
+							</div>
+							<div class="cars swiper-slide">
+								<div><img src="img/coupe.svg"></div>
+								<div><p>Electric</p></div>
+							</div>
 						</div>
-						<div class="cars">
-							<div><img src="img/coupe.svg"></div>
-							<div><p>Coupe</p></div>
-						</div>
-						<div class="cars">
-							<div><img src="img/coupe.svg"></div>
-							<div><p>Hatchback</p></div>
-						</div>
-						<div class="cars">
-							<div><img src="img/coupe.svg"></div>
-							<div><p>MPV</p></div>
-						</div>
-						<div class="cars">
-							<div><img src="img/coupe.svg"></div>
-							<div><p>Hybrids</p></div>
-						</div>
-						<div class="cars">
-							<div><img src="img/coupe.svg"></div>
-							<div><p>Electric</p></div>
-						</div>
-						<div class="cars car-right-btn">
-							<img src="img/rightbtn.png">
+						<div>
+							<button class="small-car-btn sml-btn-2 swiper-btn-next-cars"><img src="img/rightbtn.png" id="nextCar"></button>
 						</div>
 					</div>
 					<div class="payment-mode">
@@ -403,47 +432,47 @@ include 'header.php';//Navbar
 		</div>
 		<!-- small car list -->
 		<div class="small-car-strip">
-			<div class="small-car-strip-1">
-					<div class="cars-list p-0">
-						<div class="cars cars-blk">
+			<div class="small-car-strip-1 swiper small-cars-2">
+					<div class="cars-list p-0 swiper-wrapper">
+						<div class="cars cars-blk swiper-slide">
 							<div><img src="img/suv.svg"></div>
 							<div><p>Most Popular</p></div>
 						</div>
-						<div class="cars">
+						<div class="cars swiper-slide">
 							<div><img src="img/coupe.svg"></div>
 							<div><p>SUV's</p></div>
 						</div>
-						<div class="cars">
+						<div class="cars swiper-slide">
 							<div><img src="img/coupe.svg"></div>
 							<div><p>Coupe</p></div>
 						</div>
-						<div class="cars">
+						<div class="cars swiper-slide">
 							<div><img src="img/coupe.svg"></div>
 							<div><p>Hatchback</p></div>
 						</div>
-						<div class="cars">
+						<div class="cars swiper-slide">
 							<div><img src="img/coupe.svg"></div>
 							<div><p>MPV</p></div>
 						</div>
-						<div class="cars">
+						<div class="cars swiper-slide">
 							<div><img src="img/coupe.svg"></div>
 							<div><p>Hybrids</p></div>
 						</div>
-						<div class="cars">
+						<div class="cars swiper-slide">
 							<div><img src="img/coupe.svg"></div>
 							<div><p>Electric</p></div>
 						</div>
-						<div class="cars">
+						<div class="cars swiper-slide">
 							<div><img src="img/coupe.svg"></div>
 							<div><p>Electric</p></div>
 						</div>
-						<div class="cars">
+						<div class="cars swiper-slide">
 							<div><img src="img/coupe.svg"></div>
 							<div><p>Electric</p></div>
 						</div>
-						<div class="cars car-right-btn">
-							<img src="img/rightbtn.png">
-						</div>
+					</div>
+					<div>
+						<button class="small-car-btn swiper-btn-next-cars-2"><img src="img/rightbtn.png" id="nextCar-2"></button>
 					</div>				
 			</div>
 			<div class="small-car-strip-2">
