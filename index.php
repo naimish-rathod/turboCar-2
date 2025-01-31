@@ -53,7 +53,8 @@
 			</div>
 		</div>
 	</nav>
-</section>														<!-- Baner section -->
+</section>														
+	<!-- Baner section -->
 <section>
 	<div class="my-container baner">
 		<div class="search-div">
