@@ -521,9 +521,11 @@ section {
 .cars-card-box {
     display: flex;
     flex-wrap: wrap;
-    gap: 3em;
-    justify-content: space-between;
     padding-bottom: 3em;
+}
+.b-me {
+    margin-right: 15px;
+    padding-bottom: 15px;
 }
 .small-car-btn {
     position: absolute;

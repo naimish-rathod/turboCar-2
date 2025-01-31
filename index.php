@@ -133,7 +133,7 @@ include 'header.php';//Navbar
 							</div>
 						</div>
 						<div>
-							<button class="small-car-btn sml-btn-2 swiper-btn-next-cars"><img src="img/rightbtn.png" id="nextCar"></button>
+							<button class="small-car-btn sml-btn-2 swiper-btn-next-cars"><img src="img/rightbtn.svg" id="nextCar"></button>
 						</div>
 					</div>
 					<div class="payment-mode">
@@ -152,7 +152,7 @@ include 'header.php';//Navbar
 					</div>
 				</div>
 				<div class="price-box-2">
-					<div><p>Est. Vehicle Price <img src="img/iicon.png"></p></div>
+					<div><p class="est-txt">Est. Vehicle Price <img src="img/iicon.svg"></p></div>
 					<p class="dol-num">$20,702</p>
 					<div><button class="my-btn get-btn">Get Pre-Qualified</button></div>
 				</div>
@@ -472,7 +472,7 @@ include 'header.php';//Navbar
 						</div>
 					</div>
 					<div>
-						<button class="small-car-btn swiper-btn-next-cars-2"><img src="img/rightbtn.png" id="nextCar-2"></button>
+						<button class="small-car-btn swiper-btn-next-cars-2"><img src="img/rightbtn.svg" id="nextCar-2"></button>
 					</div>				
 			</div>
 			<div class="small-car-strip-2">
@@ -491,7 +491,7 @@ include 'header.php';//Navbar
 		<!-- Cars box with card -->
 		<div class="cars-card-box">
 			<!-- Card 1 -->
-			<div class="blog-card">
+			<div class="blog-card b-me">
 				<div><img src="img/tesla.png" class="img-fluid"></div>
 				<div class="blg-all-txt">
 					<div class="blg-txt-1 pt-1"> 
@@ -518,7 +518,7 @@ include 'header.php';//Navbar
 				</div>
 			</div>
 			<!-- Card 2 -->
-			<div class="blog-card">
+			<div class="blog-card b-me">
 				<div><img src="img/jeepgrad.png" class="img-fluid"></div>
 				<div class="blg-all-txt">
 					<div class="blg-txt-1 pt-1"> 
@@ -545,7 +545,7 @@ include 'header.php';//Navbar
 				</div>
 			</div>
 			<!-- Card 3 -->
-			<div class="blog-card">
+			<div class="blog-card b-me">
 				<div><img src="img/fordmastang.png" class="img-fluid"></div>
 				<div class="blg-all-txt">
 					<div class="blg-txt-1 pt-1"> 
@@ -572,7 +572,7 @@ include 'header.php';//Navbar
 				</div>
 			</div>
 			<!-- Card 4 -->
-			<div class="blog-card">
+			<div class="blog-card b-me">
 				<div><img src="img/hondaaccord.png" class="img-fluid honda-img"></div>
 				<div class="blg-all-txt">
 					<div class="blg-txt-1 pt-1"> 
@@ -599,7 +599,7 @@ include 'header.php';//Navbar
 				</div>
 			</div>
 			<!-- Card 5 -->
-			<div class="blog-card">
+			<div class="blog-card b-me">
 				<div><img src="img/hondacivic.png" class="img-fluid"></div>
 				<div class="blg-all-txt">
 					<div class="blg-txt-1 pt-1"> 
@@ -626,7 +626,7 @@ include 'header.php';//Navbar
 				</div>
 			</div>
 			<!-- Card 6 -->
-			<div class="blog-card">
+			<div class="blog-card b-me">
 				<div><img src="img/ford.png" class="img-fluid"></div>
 				<div class="blg-all-txt">
 					<div class="blg-txt-1 pt-1"> 
@@ -644,6 +644,60 @@ include 'header.php';//Navbar
 									CarMax Dulles, VA
 								</p> 
 							</div>
+						</div>
+					</div>
+					<div class="blg-txt-4">
+						<p>$84,998</p>
+						<p>Estimated $562/mo</p>
+					</div>
+				</div>
+			</div>
+			<!-- Card 7 -->
+			<div class="blog-card b-me">
+				<div><img src="img/tesla.png" class="img-fluid"></div>
+				<div class="blg-all-txt">
+					<div class="blg-txt-1 pt-1"> 
+						<p>Tesla Model 3 2024</p> 
+						<p>★4.97</p>
+					</div>
+					<div class="blg-txt-2 pt-1"><p>Electric<span></span>6K miles</p></div>
+					<div class="blg-txt-3 pt-1">
+						<div class="d-flex">
+							<div class="elipse-img"><img src="img/Ellipse.png"></div>
+							<div>
+								<p class="d-flex align-items-center">
+									&nbsp;<span>Free shipping</span>
+									<span class="gray-dot"></span>
+									CarMax Dulles, VA
+								</p> 
+							</div>						
+						</div>
+					</div>
+					<div class="blg-txt-4">
+						<p>$84,998</p>
+						<p>Estimated $562/mo</p>
+					</div>
+				</div>
+			</div>
+			<!-- Card 8 -->
+			<div class="blog-card b-me">
+				<div><img src="img/jeepgrad.png" class="img-fluid"></div>
+				<div class="blg-all-txt">
+					<div class="blg-txt-1 pt-1"> 
+						<p>Jeep Grad Cherokree</p> 
+						<p>★4.97</p>
+					</div>
+					<div class="blg-txt-2 pt-1"><p>Electric<span></span>6K miles</p></div>
+					<div class="blg-txt-3 pt-1">
+						<div class="d-flex">
+							<div class="elipse-img"><img src="img/Ellipse.png"></div>
+							<div>
+								<p class="d-flex align-items-center">
+									&nbsp;<span>Free shipping</span>
+									<span class="gray-dot"></span>
+									CarMax Dulles, VA
+								</p> 
+							</div>						
 						</div>
 					</div>
 					<div class="blg-txt-4">

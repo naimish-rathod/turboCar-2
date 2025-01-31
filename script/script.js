@@ -39,6 +39,8 @@
 	    },
 	    768: {
 	      slidesPerView: 2,
+	  	  spaceBetween: 20,  
+
 	    },
 	    0: {
 	      slidesPerView: 1,
@@ -161,10 +163,11 @@
 	  	  spaceBetween: 10,  
 	    },
 	    768: {
-	      slidesPerView: 4,
+	      slidesPerView: 5,
 	    },
 	    0: {
-	      slidesPerView: 2,
+	      slidesPerView: 3,
+	  	  spaceBetween: 5,  
 	    },
 	  },
 	});
@@ -178,7 +181,7 @@
 	nextButCars.addEventListener('click', function() {
 	  swiper.slideNext();
 	});
-// Small cars slide 
+// Small cars slide 2
 	const smallCarsSlide2 = new Swiper('.small-cars-2', {
 	  loop: true,
 	  slidesPerView: 7,  
@@ -199,7 +202,8 @@
 	      slidesPerView: 5,
 	    },
 	    0: {
-	      slidesPerView: 2,
+	      slidesPerView: 4,
+	  	  spaceBetween: 10,  
 	    },
 	  },
 	});
